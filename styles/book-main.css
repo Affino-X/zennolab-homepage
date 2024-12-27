@@ -1,0 +1,74 @@
+.ebook-block {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 400px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.ebook {
+    display: flex;
+    flex-direction: column;
+    width: 538px;
+    height: calc(292px + 6px);
+    margin-left: 32px;
+    margin-top: 54px;
+}
+
+.ebook__author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ebook__author img {
+    margin-right: 8px;
+}
+
+.ebook__author span {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #191E28;
+}
+
+.ebook__title {
+    font-weight: 700;
+    font-size: 32px;
+    color: #191E28;
+    line-height: 38px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.ebook__content {
+    color: #191E28;
+    font-size: 16px;
+    line-height: 26px;
+    width: 538px;
+    height: 72px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.ebook__button {
+    font-family: Inter;
+    width: 186px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background: #0082FF;
+    border: none;
+    cursor: pointer;
+}
+
+.ebook__button:hover {
+    background: #0084ffea;
+}
+
+.ebook__button:active {
+    background: #067be8;
+}

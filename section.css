@@ -1,0 +1,10 @@
+.bg-gray {
+    background: #F0F5FF;
+}
+.bg-white {
+    background: #fff;
+}
+
+.bg-white, .bg-gray {
+    padding: 100px 0;
+}

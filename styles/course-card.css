@@ -1,0 +1,74 @@
+
+
+.course-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 1170px;
+}
+  
+
+.course-card__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 16px;
+    width: 370px;
+    height: 520px;
+    margin: 0 15px;
+}
+
+
+.course-card__title {
+    color: #191E28;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    width: 322px;
+    height: 30px;
+    margin: 0;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+
+.course-card__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191E28;
+    width: 322px;
+    height: 100px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+
+.course-card__button {
+    font-family: Inter;
+    width: 322px;
+    height: 50px;
+    background: #0082FF;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.course-card__button:hover {
+    background: #0084ffea;
+}
+
+.course-card__button:active {
+    background: #067be8;
+}
+
+/* Стиль для изображения */
+.course-card__item img {
+    width: 370px;
+    height: 236px;
+    border-radius: 16px 16px 0 0;
+}
