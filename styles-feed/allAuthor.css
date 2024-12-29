@@ -1,0 +1,75 @@
+#authors {
+    width: 640px;
+}
+
+.author {
+    width: calc(640px - 48px);
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+.author .user-info {
+    display: flex;
+    align-items: center;
+}
+.author .user-info__avatar {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+    border-radius: 24px;
+
+}
+.author .user-info__name {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #191E28;
+}
+.author .user-info__desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #191E28;
+}
+
+
+.all-author {
+    width: calc(640px - 48px);
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.all-author__info {
+    display: flex;
+    align-items: center;
+}
+
+.all-author__info img {
+    margin-right: 16px;
+    height: 48px;
+    width: 48px;
+}
+.all-author__info span {
+    display: flex;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    align-items: center;
+    height: 48px;
+    color: #191E28
+    
+}
+
+.all-author__desc {
+    width: 592px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #191E28;
+}

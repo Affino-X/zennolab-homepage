@@ -1,0 +1,21 @@
+.load-more  {
+    border-radius: 6px;
+    width: 168px;
+    height: 50px;
+    background: #0082FF;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: initial;
+    border: none;
+    font-family: Inter;
+    cursor: pointer;
+  }
+  
+  .load-more:hover {
+    background: #2891f7;
+  }
+  
+  .load-more:active {
+    background: #0a84fa;
+  }

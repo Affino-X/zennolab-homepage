@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
 
-section {
+section, header, footer {
     font-family: Inter;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Центрирует по вертикали */
-    justify-content: center; /* Центрирует по горизонтали */
-    margin: 0; /* Убирает отступы */
+    align-items: center; 
+    justify-content: center; 
+    margin: 0; 
+    padding: 0;
 }

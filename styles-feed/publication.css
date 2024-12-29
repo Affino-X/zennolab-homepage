@@ -1,0 +1,253 @@
+
+.short-text {
+    max-width: 592px;
+}
+
+.comment-box {
+    width: 592px;
+    display: flex;
+    align-items: center;
+    height: 68px;
+    justify-content: space-between;
+    /*margin-right: 15px;*/
+    border-top: 1px solid #E1E6F0;
+    border-bottom: 1px solid #E1E6F0;
+}
+
+.comment-box__count {
+    display: flex;
+    align-items: center;
+}
+
+.comment-box__count img {
+    margin-right: 4px;
+}
+
+.comment-box__count span {
+    font-size: 14px;
+    color: #737882;
+}
+.share-box {
+    display: flex;
+    align-items: center;
+}
+.share-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;  
+    color: #191E28;
+
+}
+.share-link {
+    margin: 0 4px;
+    display: flex;
+    align-items: center;
+}
+
+.share-link a {
+    display: flex;
+    align-items: center;
+    margin: 0 4px;
+}
+
+#postSingle .post__content {
+  width: 592px !important;
+ 
+}
+
+#postSingle {
+    height: 100%;
+}
+
+#postSingle .post {
+    margin: 0;
+}
+
+.disclaimer-wrapper {
+  display: none;
+}
+
+/* --- */
+
+
+#postSingle .post__content p {
+  width: 592px !important;
+  padding-right: 5px;
+  line-height: 26px !important;
+}
+
+#postSingle .post__content div {
+  padding: 0;
+  padding: 5px 0 1px 0;
+}
+
+.post-comments {
+  margin: 0;
+  margin: 24px 0;
+  width: 592px;
+}
+
+.post-comments input, .post-comments textarea  {
+  border-radius: 6px !important;
+  resize: none;
+}
+.comment-reply-title {
+  border: none !important;
+  display: flex;
+  font-size: 16px !important;
+  color: #191E28 !important;
+  
+ 
+}
+
+.comment-reply-title span {
+   text-transform: none !important;
+   padding: 0 !important;
+}
+
+.comment-form-author, .comment-form-email {
+  width: 286px !important;
+}
+.comment-form-author {
+  margin-right: 5px !important;
+}
+
+.form-submit {
+  margin-top: 24px !important;
+  width: 126px !important;
+  height: 50px !important;
+  display: flex; 
+  border: none !important;
+}
+
+.comment-form-url {
+  display: none !important;
+}
+
+.form-submit #submit {
+  color: #191E28 !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+}
+
+.comment-form-cookies-consent {
+  display: flex;
+  align-items: center !important;
+  
+}
+
+.comment-form-cookies-consent #wp-comment-cookies-consent {
+  margin: 5px  10px 10px 0!important;
+  outline: none !important;
+}
+
+.comment-form-cookies-text {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+#comments {
+  margin-bottom: -35px !important;
+}
+
+#reply-title {
+ padding: 0 !important;
+}
+
+.comment-form-cookies-consent #wp-comment-cookies-consent {
+  display: initial;
+  opacity: 0.3;
+}
+
+
+#respond textarea,
+.penci-login-register textarea,
+.wpcf7 textarea {
+  padding: 15px 20px;
+  border: 1px solid #dedede;
+  width: 552px;
+  height: 120px;
+  font-size: 14px;
+  color: #313131;
+  margin-bottom: 28px;
+  line-height: 20px;
+  font-weight: 400;
+  outline: 0;
+  vertical-align: top;
+  font-family: var(--pcbody-font);
+}
+
+.comment-form-comment {
+  height: auto;
+  margin-bottom: -25px;
+}
+
+.comment-form {
+  display: block;
+}
+
+form#commentform > .comment-form-cookies-consent {
+	margin: 0 0 15px 0;
+	clear: both;
+	line-height: 1.4;
+	color: #777;
+}
+
+#respond p.comment-form-author, #respond p.comment-form-email {
+	float: left;
+  display: inline-block;
+	margin-bottom: 20px;
+}
+
+#author,
+#email {
+  height: 42px;
+  width: 270px;
+  padding-left: 16px;
+  border-radius: 6px;
+  border: 1px solid #dedede;
+}
+
+#email {
+  margin-left: 12px;
+}
+
+.form-submit {
+	margin-top: 24px !important;
+  margin-bottom: 35px;
+	width: 126px !important;
+	height: 50px !important;
+	display: flex;
+	border: none !important;
+}
+
+#respond #submit, .penci-login-register input[type="submit"], .widget_wysija input[type="submit"], .wpcf7 input[type="submit"] {
+	text-transform: uppercase;
+	font-family: var(--pchead-font);
+	font-weight: var(--pchead-wei);
+	background: #f5f5f5;
+	border-radius: 0;
+	font-size: 14px;
+	color: #313131;
+	padding: 12px 20px;
+	display: inline-block;
+	-o-transition: .3s;
+	-moz-transition: .3s;
+	-webkit-transition: .3s;
+	transition: .3s;
+	cursor: pointer;
+	width: auto;
+	min-width: 120px;
+	text-align: center;
+	margin: 0;
+	border: none;
+}
+
+

@@ -1,0 +1,41 @@
+#postAuthor {
+    width: 640px;
+}
+
+
+.author-container {
+    display: flex;
+    flex-flow: column;
+    height: 216px;
+    width: calc(640px - 24px);
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px 0 24px 24px;
+}
+
+.author-container .author-avatar {
+    display: flex;
+    align-items: center;
+
+}
+
+.author-container .author-avatar img {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+.author-container .author-avatar h2 {
+    font-size: 22px;
+    font-weight: 600;
+    width: 424px;
+    line-height: 32px;
+}
+
+
+.author-container .author-desc {
+    font-weight: 400;
+    font-size: 16px;
+    width: 592px;
+    line-height: 26px;
+    color: #191E28;
+}

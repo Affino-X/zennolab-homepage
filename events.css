@@ -1,0 +1,50 @@
+.news-events {
+    width: 640px;
+    height: 188px;
+    background: #fff;
+    border-radius: 16px;
+}
+
+.news-events__cover {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    width: auto;
+    padding: 24px 0 24px 24px;
+}
+
+.news-events__cover img {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+
+/* Заголовок блока */
+.news-events__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #191E28;
+    width: 558px;
+    height: 20px;
+    display: flex; 
+    align-items: center;
+}
+
+/* Список событий */
+.news-events__list {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
+}
+
+/* Элемент списка */
+.news-events__item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 592px;
+    height: 20px;
+    margin-bottom: 16px;
+}

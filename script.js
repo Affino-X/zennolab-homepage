@@ -164,7 +164,7 @@ const renderLastPublished = (post) => {
 
 async function main() {
     await fetchPosts();
-
+    
     renderLastPublished(allPosts[0])
 
     renderLatestPost(allPosts[0])
@@ -172,7 +172,11 @@ async function main() {
     allPosts.slice(1, 5).forEach(post => {
         renderLatestPostWidget(post)
     });
-    
+  
+    document.querySelector('.container').style.display = 'block'
+    document.querySelector('.loader-block').style.display = 'none'
+   
+
 }
 
 main().catch((error) => console.error('Error loading posts:', error));

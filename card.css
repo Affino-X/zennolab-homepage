@@ -1,0 +1,100 @@
+.zenno-card {
+    width: 240px;
+    height: 100%;
+}
+  .zenno-card__start {
+    width: 240px;
+    height: 100%;
+    max-height: 300px;
+    margin-bottom: 33px;
+  }
+  .zenno-card__start-cover {
+    height: 140px;
+    background-image: url('http://journal.zennolab.com/wp-content/uploads/2024/12/snimok-jekrana-2024-12-24-v-15.59.09.png');
+    border-radius: 16px 16px 0 0;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .zenno-card__start-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #FFFFFF;
+    height: 170px;
+    width: 100%;
+    border-radius: 0 0 16px 16px;
+  }
+  .zenno-card__start-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #191E28;
+    background: #FFFFFF;
+    width: 192px;
+    height: 66px;
+    margin-bottom: 16px;
+  }
+  .zenno-card__start-button {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    width: 192px;
+    font-family: Inter;
+    height: 40px;
+    border: none;
+    background: #0082FF;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .zenno-card__start-button:hover {
+    background: rgba(0, 132, 255, 0.8431372549);
+  }
+  
+  .zenno-card__author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 68px;
+    max-width: 240px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 16px;
+  }
+  .zenno-card__author-link {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 137px;
+    height: 20px;
+    text-decoration: none !important;
+    color: #191E28 !important;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 24px 23px 24px 24px;
+  }
+  .zenno-card__author-image {
+    width: 32px;
+    height: 32px;
+    margin: 18px 18px 18px 0;
+  }
+  
+  
