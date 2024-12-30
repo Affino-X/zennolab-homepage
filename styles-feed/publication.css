@@ -281,9 +281,9 @@ form#commentform > .comment-form-cookies-consent {
 }
 
 
-#commentform #form-submit #submit {
+#form-submit #submit {
   font-family: Inter;
   font-weight: 600;
   font-size: 16px;
-  color: #191E28;
+  border-radius: 6px;
 }
