@@ -261,3 +261,29 @@ form#commentform > .comment-form-cookies-consent {
 .elementor-widget-container a:hover {
   color: #168fff;
 } 
+
+
+.comment-form-cookies-consent {
+  display: flex;
+  align-items: center;
+}
+.comment-form-cookies-consent #wp-comment-cookies-consent {
+  margin: 0 !important;
+  margin-right: 10px !important;
+}
+
+
+#author,
+#email  {
+  font-family: Inter;
+  color: #737882;
+  font-size: 14px;
+}
+
+
+#commentform #form-submit #submit {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 16px;
+  color: #191E28;
+}
