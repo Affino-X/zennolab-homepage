@@ -251,3 +251,11 @@ form#commentform > .comment-form-cookies-consent {
 }
 
 
+.elementor-widget-container a {
+  color: #18A3FA;
+  text-decoration: none;
+}
+
+.elementor-widget-container a:hover {
+  color: #46b5fb ;
+} 
