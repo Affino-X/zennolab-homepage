@@ -1,0 +1,81 @@
+/* Общий контейнер меню */
+.menu-bottom {
+    height: 50px;
+    margin: auto;
+    background: #EEF4FF;
+}
+
+/* Внутренний контейнер */
+.menu-bottom__wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0 130px;
+    align-items: center;
+    width: 2000px;
+    margin:  0 auto;
+}
+
+/* Левый список */
+.menu-bottom__list-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+
+}
+
+.menu-bottom__list-left > li:last-child::after {
+    content: '|';
+    color: #B4BED2;
+    padding-left: 14px;
+}
+
+
+/* Правый список */
+.menu-bottom__list-right {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+/* Элемент списка */
+.menu-bottom__item {
+    margin: 0 12px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Inter;
+    cursor: pointer;
+    
+}
+
+.menu-bottom__item:hover {
+    color: #191e28c6;
+}
+
+/* Изображения в меню */
+.menu-bottom__item img {
+    /* твои стили */
+}
+
+/* Текст внутри элементов списка */
+.menu-bottom__item a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: Inter;
+    margin-left: 4px;
+    color: #191e28;
+}
+
+.menu-bottom__item a:hover {
+    color: #191e28c6;
+}
+
+/* Изображение поиска */
+.menu-bottom__wrapper > img {
+   width: 16px;
+   height: 16px;
+   margin-left: 417px;
+   cursor: pointer;
+}
