@@ -59,6 +59,11 @@
   color: #191E28;
   line-height: 32px;
 }
+
+.sidebar-feed__menu-text:hover {
+  color: #191e28bb;
+}
+
 .sidebar-feed__menu-text--primary {
   font-weight: 600;
 }
@@ -112,6 +117,10 @@
   line-height: 32px;
   color: #191E28;
 }
+
+.sidebar-feed__top-blogs-name:hover {
+  color: #191e28bb !important;
+}
 .sidebar-feed__top-blogs .sidebar-feed__top-blogs-button {
   height: 32px;
   width: 100%;
@@ -123,6 +132,12 @@
   border-radius: 6px;
   cursor: pointer;
 }
+
+.sidebar-feed__top-blogs-button:hover {
+  color: #191e28dc;
+}
+  
+
 
 /* SIDEBAR THEMES */
 .sidebar-feed__theme {
@@ -172,3 +187,8 @@
   vertical-align: middle;
   font-weight: 400;
 }
+
+.sidebar-feed__theme-name:hover {
+  color: #191e28bb !important;
+}
+  

@@ -255,7 +255,8 @@ async function main() {
       })
     
 
-    
+    document.querySelector('.container').style.display = 'block'
+    document.querySelector('.loader-block').style.display = 'none'
     renderPosts();
 }
 

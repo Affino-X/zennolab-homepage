@@ -69,11 +69,14 @@ const searchAuthor = (query) => {
     });
   
 }
-
+ document.querySelector('.container').style.display = 'block'
+  document.querySelector('.loader-block').style.display = 'none'
 
 document.getElementById('searchInputAllAuthor').addEventListener('input', (event) => {
   const query = event.target.value.trim();
   searchAuthor(query);
+
+ 
 })
 
 fetchAuthors()

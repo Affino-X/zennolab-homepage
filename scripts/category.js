@@ -199,10 +199,14 @@ const searchPost = (query) => {
     
   }
   
+  document.querySelector('.container').style.display = 'block'
+  document.querySelector('.loader-block').style.display = 'none'
   
   document.getElementById('searchInputCategory').addEventListener('input', (event) => {
     const query = event.target.value.trim();
     searchPost(query);
+
+    
   })
 
 fetchPosts();
