@@ -64,6 +64,14 @@ header img, footer img {
     display: none;
 }
 
+.post a {
+   transition: all 0.3s ease;
+}
+
+.post a:hover {
+    color: #191e28bd !important;
+}
+
 .posts-list {
     margin-top: 60px;
 }

@@ -14,6 +14,10 @@
     padding-bottom: 24px;
 }
 
+.post:hover {
+    color: #191e28c6 !important;
+}
+
 .post__author {
     display: flex;
     align-items: center;
