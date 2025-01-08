@@ -211,5 +211,7 @@ const searchPost = (query) => {
 
 fetchPosts();
 
-document.getElementById('3437').querySelector(".post__title a").href = '/zennolab-homepage/page/publication/'
-
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('3437').querySelector(".post__title a").href = '/zennolab-homepage/page/publication/';
+  });
+  
